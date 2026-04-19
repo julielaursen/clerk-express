@@ -1,0 +1,25 @@
+{
+  "name": "clerk-express",
+  "version": "1.0.0",
+  "description": "This is a new project using Clerk authentication with Express.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julielaursen/clerk-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/julielaursen/clerk-express/issues"
+  },
+  "homepage": "https://github.com/julielaursen/clerk-express#readme",
+  "dependencies": {
+    "@clerk/express": "^2.1.5",
+    "express": "^5.2.1"
+  }
+}

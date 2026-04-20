@@ -4,6 +4,9 @@
   "description": "This is a new project using Clerk authentication with Express.js.",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon --exec ts-node index.ts",
+    "start": "ts-node index.ts",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,9 +23,14 @@
   "homepage": "https://github.com/julielaursen/clerk-express#readme",
   "dependencies": {
     "@clerk/express": "^2.1.5",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1"
   },
   "devDependencies": {
-    "@types/express": "^5.0.6"
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
   }
 }
